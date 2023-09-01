@@ -6,10 +6,10 @@
     font-size: 12px;
   }
   .breadcrumbs__link:visited {
-    /*color: black !important;*/
+    color: black !important;
   }
   .breadcrumbs__link {
-    /*color: black !important;*/
+    color: black !important;
   }
   .breadcrumbs__link {
     text-decoration: none !important;
@@ -26,15 +26,16 @@
 
   .breadcrumbs__item:not(:last-child):after {
     border-style: solid;
-    border-width: 0.1em 0.1em 0 0;
+    border-width: 0.15em 0.15em 0 0;
+    border-color: #adadad;
     content: '';
     display: inline-block;
-    height: 0.2em;
+    height: 0.35em;
     margin: 0 0.2em;
     position: relative;
     transform: rotate(45deg);
     vertical-align: middle;
-    width: 0.2em;
+    width: 0.35em;
   }
 
   .breadcrumbs__link {
@@ -42,9 +43,9 @@
   }
 
   .breadcrumbs__link[aria-current='page'] {
-    /*color: inherit;
+    color: inherit;
     font-weight: normal;
-    text-decoration: none;*/
+    text-decoration: none;
   }
 
   .breadcrumbs__link[aria-current='page']:hover,
@@ -67,38 +68,58 @@
       </li>
       {%- case t -%}
         {%- when 'page' -%}
-          <li class='breadcrumbs__item'>
-            <a class='breadcrumbs__link' href='{{ page.url }}' aria-current='page'>{{ page.title }}</a>
+          <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
+            <a itemprop='item' class='breadcrumbs__link' href='{{ page.url }}' aria-current='page'>{{ page.title }}</a>
+            <meta itemprop='position' content='2'>
           </li>
         {%- when 'product' -%}
           {%- if collection.url -%}
-            <li class='breadcrumbs__item'>
-              {{ collection.title | link_to: collection.url }}
+            <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
+              <a itemprop='item' href='{{collection.url}}'>
+                <span itemprop='name'>{{ collection.title }}</span>
+              </a>
+              <meta itemprop='position' content='2'>
+              {%- assign itemprop_positon = 2 -%}
             </li>
           {%- endif -%}
           {% assign pro_collection = product.collections.first %}
           {% if pro_collection %}
-            <li class='breadcrumbs__item'>
-              <a href='{{ pro_collection.url }}'>{{ pro_collection.title }}</a>
+            <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
+              <a itemprop='item' href='{{ pro_collection.url }}'>{{ pro_collection.title }}</a>
+              <meta itemprop='position' content='{{itemprop_positon | plus: 1}}'>
             </li>
           {% endif %}
-          <li class='breadcrumbs__item'>
-            <a class='breadcrumbs__link' href='{{ product.url }}' aria-current='page'>
-              {{- product.title | truncate: 20 -}}
+          <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
+            <a itemprop='item' class='breadcrumbs__link' href='{{ product.url }}' aria-current='page'>
+              <span itemprop='name'>{{- product.title | truncate: 25 -}}</span>
             </a>
+            <meta itemprop='position' content='{{itemprop_positon | plus: 2}}'>
           </li>
         {%- when 'collection' and collection.handle -%}
           {%- if current_tags -%}
-            <li class='breadcrumbs__item'>
-              {{ collection.title | link_to: collection.url }}
+            <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
+              <a href='{{collection.url}}' itemprop='item'>
+                <span itemprop='name'>{{ collection.title }}</span>
+              </a>
+              <meta itemprop='position' content='2'>
+              {%- assign itemprop_positon = 2 -%}
             </li>
-            <li class='breadcrumbs__item'>
+            <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
               {%- capture tag_url -%}{{ collection.url }}/{{ current_tags | join: "+"}}{%- endcapture -%}
-              <a class='breadcrumbs__link' href='{{ tag_url }}' aria-current='page'>{{ current_tags | join: ' + ' }}</a>
+              <a itemprop='item' class='breadcrumbs__link' href='{{ tag_url }}' aria-current='page'>
+                {{- current_tags | join: ' + ' -}}
+              </a>
+              <meta itemprop='name' content='{{ collection.title }}'>
+              <meta itemprop='position' content='3'>
             </li>
+            {%- assign itemprop_positon = 3 -%}
           {%- else -%}
-            <li class='breadcrumbs__item'>
-              <a class='breadcrumbs__link' href='{{ collection.url }}' aria-current='page'>{{ collection.title }}</a>
+            <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
+              <a itemprop='item' class='breadcrumbs__link' href='{{ collection.url }}' aria-current='page'>
+                <span itemprop='name'>{{ collection.title }}</span>
+              </a>
+              <meta itemprop='position' content='2'>
+              {%- assign itemprop_positon = 2 -%}
             </li>
           {%- endif -%}
         {%- when 'blog' -%}
