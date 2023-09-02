@@ -364,6 +364,7 @@ a.product__text {
 
 .product__title > * {
   margin: 0;
+  font-weight: bold;
 }
 
 .product__title > a {
