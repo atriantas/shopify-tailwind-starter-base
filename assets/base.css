@@ -2456,11 +2456,14 @@ product-info .loading-overlay:not(.hidden) ~ *,
 .header-wrapper {
   display: block;
   position: relative;
-  background-color: rgb(var(--color-background));
+  background-color: rgba(var(--color-background), 0);
+  border-bottom: 0.1rem solid #a3a29b;
 }
 
 .header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  /*border-top: 5px solid;
+  border-image: linear-gradient(to right,rgba(255,184,77,1) 21%, rgba(194,223,138,1) 21%, rgba(194,223,138,1) 36%, rgba(80,200,200,1) 36%, rgba(80,200,200,1) 50%, rgba(255,163,152,1) 50%, rgba(255,163,152,1) 65%, rgba(255,184,77,1) 65%, rgba(255,184,77,1) 79%, rgba(80,200,200,1) 79%) 1 0 0 0;*/
+  border-bottom: 0.1rem solid #a3a29b;
 }
 
 .header {
