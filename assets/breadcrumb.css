@@ -2,14 +2,15 @@
   margin: 0px auto;
   margin-bottom: 15px;
   margin-top: 1em;
-  font-size: 12px;
+  font-size: 13px;
+  color: #706b67;
 }
-.breadcrumbs__link:visited {
+/*.breadcrumbs__link:visited {
   color: black !important;
 }
 .breadcrumbs__link {
   color: black !important;
-}
+}*/
 .breadcrumbs__link {
   text-decoration: none !important;
 }
@@ -26,7 +27,7 @@
 .breadcrumbs__item:not(:last-child):after {
   border-style: solid;
   border-width: 0.15em 0.15em 0 0;
-  border-color: #adadad;
+  border-color: #706b67;
   content: '';
   display: inline-block;
   height: 0.35em;
