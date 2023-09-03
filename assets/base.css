@@ -1340,7 +1340,21 @@ button.shopify-payment-button__button--unbranded {
 
 .button:after,
 .shopify-challenge__button:after,
-.customer button:after,
+.customer button:after {
+  content: '';
+  position: absolute;
+  top: var(--buttons-border-width);
+  right: var(--buttons-border-width);
+  bottom: var(--buttons-border-width);
+  left: var(--buttons-border-width);
+  z-index: 1;
+  border-radius: var(--buttons-radius);
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
+      rgba(var(--color-button-text), var(--border-opacity)),
+    0 0 0 var(--buttons-border-width)
+      rgba(var(--color-button), var(--alpha-button-background));
+  transition: box-shadow var(--duration-short) ease;
+}
 .shopify-payment-button__button--unbranded:after {
   content: '';
   position: absolute;
@@ -1359,7 +1373,14 @@ button.shopify-payment-button__button--unbranded {
 
 .button:not([disabled]):hover::after,
 .shopify-challenge__button:hover::after,
-.customer button:hover::after,
+.customer button:hover::after {
+  --border-offset: 1.3px;
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
+      rgba(var(--color-button-text), var(--border-opacity)),
+    0 0 0 calc(var(--buttons-border-width) + 1px)
+      rgba(var(--color-button), var(--alpha-button-background));
+}
+
 .shopify-payment-button__button--unbranded:hover::after {
   --border-offset: 1.3px;
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
@@ -2188,15 +2209,17 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .cart-count-bubble {
   position: absolute;
-  background-color: rgb(var(--color-button));
+  background-color: #219394;
   color: rgb(var(--color-button-text));
-  height: 1.7rem;
-  width: 1.7rem;
+  border: 1px solid white;
+  height: 1.9rem;
+  width: 1.9rem;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 0.9rem;
+  font-weight: bold;
   bottom: 0.8rem;
   left: 2.2rem;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
@@ -2214,19 +2237,18 @@ product-info .loading-overlay:not(.hidden) ~ *,
   border-top: 5px solid;
   border-image: linear-gradient(
       to right,
-      rgba(255, 184, 77, 1) 21%,
-      rgba(194, 223, 138, 1) 21%,
-      rgba(194, 223, 138, 1) 36%,
-      rgba(80, 200, 200, 1) 36%,
+      rgba(255, 184, 77, 1) 20%,
+      rgba(194, 223, 138, 1) 20%,
+      rgba(194, 223, 138, 1) 35%,
+      rgba(80, 200, 200, 1) 35%,
       rgba(80, 200, 200, 1) 50%,
       rgba(255, 163, 152, 1) 50%,
       rgba(255, 163, 152, 1) 65%,
       rgba(255, 184, 77, 1) 65%,
-      rgba(255, 184, 77, 1) 79%,
-      rgba(80, 200, 200, 1) 79%
+      rgba(255, 184, 77, 1) 80%,
+      rgba(80, 200, 200, 1) 80%
     )
     1 0 0 0;
-  border-bottom: 0.1rem solid #a3a29b;
 }
 
 @media screen and (min-width: 990px) {
