@@ -11,8 +11,8 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text": "{{ product.metafields.custom.short_description.value }}",
+            "text_style": "body"
           }
         },
         "price": {
@@ -38,6 +38,21 @@
             "show_gift_card_recipient": true
           }
         },
+        "16bf1687-5947-4c0a-aec9-fa723370ab9b": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify:\/\/shop_images\/Hand_Pastel.png",
+            "heading_1": "Handmade",
+            "icon_2": "return",
+            "image_2": "shopify:\/\/shop_images\/Gift_Pastel.png",
+            "heading_2": "Gift wrap",
+            "icon_3": "truck",
+            "image_3": "shopify:\/\/shop_images\/Personalized_Pastel.png",
+            "heading_3": "Personalized"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -46,9 +61,9 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.import_information.trade_item_description | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -93,6 +108,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "16bf1687-5947-4c0a-aec9-fa723370ab9b",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
