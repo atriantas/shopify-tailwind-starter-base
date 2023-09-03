@@ -36,6 +36,7 @@
   transform: rotate(45deg);
   vertical-align: middle;
   width: 0.35em;
+  margin-bottom: 3px;
 }
 
 .breadcrumbs__link {
