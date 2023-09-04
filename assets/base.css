@@ -2698,8 +2698,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header__icon .icon {
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 3.5rem;
   fill: none;
   vertical-align: middle;
 }
@@ -2963,6 +2963,7 @@ details[open] > .header__submenu {
 
 details[open] > .header__menu-item {
   text-decoration: underline;
+  color: #42baba;
 }
 
 details[open]:hover > .header__menu-item {
@@ -2975,7 +2976,7 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
+  /*color: rgb(var(--color-foreground));*/
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
