@@ -101,7 +101,9 @@
           }
         },
         "personalise": {
-          "type": "personalise"
+          "type": "personalise",
+          "settings": {
+          }
         }
       },
       "block_order": [
