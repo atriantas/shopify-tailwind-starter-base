@@ -31,7 +31,7 @@
                 tabindex='-1'
               >
                 <ul
-                  class='mega-menu__list page-width{% if link.levels == 1 and link.title != 'photography' %} mega-menu__list--condensed{% endif %}'
+                  class='mega-menu__list page-width{% if link.levels == 1 and forloop.index != 3 %} mega-menu__list--condensed{% endif %}'
                   role='list'
                 >
                   {%- for childlink in link.links -%}
@@ -52,7 +52,7 @@
                       </li>
                     {% endif %}
                     {%- if childlink.title != 'image' -%}
-                      {%- if link.title == 'photography' -%}
+                      {%- if link.title == 'photography' or link.title == 'Φωτογραφία' -%}
                         {%- if childlink.type == 'collection_link' -%}
                           {% assign linkCollection = childlink.object %}
                           <li class='nav-collection_image'>
