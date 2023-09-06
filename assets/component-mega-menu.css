@@ -109,6 +109,15 @@
   text-decoration: underline;
 }
 
+.nav-child-link-image {
+  border-radius: 6px;
+}
+
+.nav-featured-image {
+  border-radius: 6px;
+  height: 200px;
+  max-width: fit-content;
+}
 /*#MegaMenu-Content-7 {
    content: '';
    display: block;

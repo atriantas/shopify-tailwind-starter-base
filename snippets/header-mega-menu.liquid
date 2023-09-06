@@ -42,11 +42,11 @@
                           >featured product
                           <img
                             class='nav-featured-image'
-                            src='{{linkProduct.featured_image.src | product_img_url: '250x'}}'
-                            alt='{{childlink.title}}'
+                            src='{{ linkProduct.featured_image.src | product_img_url: '250x' }}'
+                            loading='lazy'
+                            alt='{{ childlink.title }}'
                             width='250'
                             height='250'
-                            style='border-radius: 6px; height: 200px; max-width: fit-content;'
                           >
                         </a>
                       </li>
@@ -61,11 +61,11 @@
                               <img
                                 crossorigin='anonymous'
                                 class='nav-child-link-image'
-                                src='{{linkCollection.products.first.featured_image.src | product_img_url: '250x'}}'
-                                alt='{{grandchild_link.title}}'
+                                src='{{ linkCollection.products.first.featured_image.src | product_img_url: '250x' }}'
+                                loading='lazy'
+                                alt='{{ grandchild_link.title }}'
                                 width='250'
                                 height='250'
-                                style='border-radius: 6px;'
                               >
                             </a>
                           </li>
