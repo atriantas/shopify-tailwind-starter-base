@@ -84,7 +84,7 @@
               {% render block %}
             
               {%- when 'personalise_text' -%}
-                <label for="message" class="form__label">{{section.settings.heading}}</label>
+                <label for="message" class="form__label">{{sections.main-product.blocks.personalise_text.settings.heading}}</label>
                 <div class="field">
                   <textarea id="message" class="text-area field__input" placeholder="Message" name="properties[Message]"form="product-form-{{ section.id }}"></textarea>
                 </div>
@@ -814,7 +814,7 @@
     },
     {
       "type": "personalise_text",
-      "name": "t:sections.main-product.blocks.personalise_text.name",
+      "name": "sections.main-product.blocks.personalise_text.name",
       "limit": 1,
       "settings": [
         {
@@ -822,6 +822,12 @@
           "id": "heading",
           "label": "Heading",
           "default": "Personalisation"
+        }
+      ],
+
+      "presets": [
+        {
+          "name": "Personalisation"
         }
       ]
     },
