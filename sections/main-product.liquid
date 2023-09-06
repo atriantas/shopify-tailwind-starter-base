@@ -82,7 +82,14 @@
           {%- case block.type -%}
             {%- when '@app' -%}
               {% render block %}
-            {%- when 'text' -%}
+            
+              {%- when 'personalise_text' -%}
+                <label for="message" class="form__label">Message:</label>
+                <div class="field">
+                  <textarea id="message" class="text-area field__input" placeholder="Message" name="properties[Message]"form="product-form-{{ section.id }}"></textarea>
+                </div>
+                
+              {%- when 'text' -%}
               <p
                 class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
                 {{ block.shopify_attributes }}
@@ -806,8 +813,8 @@
       ]
     },
     {
-      "type": "quantity_selector",
-      "name": "t:sections.main-product.blocks.quantity_selector.name",
+      "type": "personalise_text",
+      "name": "t:sections.main-product.blocks.personalise_text.name",
       "limit": 1
     },
     {
