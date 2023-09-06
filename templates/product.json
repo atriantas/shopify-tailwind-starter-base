@@ -99,6 +99,9 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "personalise": {
+          "type": "personalise"
         }
       },
       "block_order": [
@@ -114,7 +117,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "personalise"
       ],
       "settings": {
         "enable_sticky_info": true,
