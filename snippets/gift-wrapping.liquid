@@ -1,7 +1,7 @@
 {% if linklists['gift-wrapping'].links.size > 0 and linklists['gift-wrapping'].links.first.type == 'product_link' %}
   <div
     id='is-a-gift'
-    style='clear: left; margin: 30px 0'
+    style='clear: left; margin-bottom: 30px'
     class='clearfix rte'
   >
     <p>
@@ -17,15 +17,19 @@
       >
       <label
         for='gift-wrapping'
-        style='display:inline; padding-left: 5px; float: none;'
+        style='display:inline; color: rgba(var(--color-foreground), 0.75); padding-left: 5px; float: none;'
       >
         For {{ linklists['gift-wrapping'].links.first.object.price | money }}
-        please wrap the products in this order.
+        please wrap the products.
       </label>
     </p>
     <p>
-      <label style='display:block' for='gift-note'>Gift message (free and optional):</label>
-      <textarea name='attributes[gift-note]' id='gift-note'>
+      <textarea
+        style='border: 1px solid black;'
+        class='text-area field__input'
+        name='attributes[gift-note]'
+        id='gift-note'
+      >
     {{ cart.attributes.gift-note }}</textarea>
     </p>
   </div>
@@ -43,7 +47,6 @@
   </style>
 
   <script>
-
     Shopify.Cart = Shopify.Cart || {};
 
     Shopify.Cart.GiftWrap = {};
