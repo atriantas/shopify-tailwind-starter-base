@@ -2231,9 +2231,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .utility-bar--bottom-border {
-  /*
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
-  */
+  /*
   border-top: 5px solid;
   border-image: linear-gradient(
       to right,
@@ -2249,6 +2248,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
       rgba(80, 200, 200, 1) 80%
     )
     1 0 0 0;
+    */
 }
 
 @media screen and (min-width: 990px) {
