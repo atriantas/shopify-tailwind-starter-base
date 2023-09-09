@@ -118,9 +118,9 @@
         "11a84718-bec9-49a9-808c-1eac09eb5a3e": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
-            "backgroundColor": "#F1F8F5",
-            "textColor": "#1D4136",
-            "borderColor": "#95C9B4",
+            "backgroundColor": "#f1f8f5",
+            "textColor": "#1d4136",
+            "borderColor": "#95c9b4",
             "showLogo": true,
             "showMoreInfo": true,
             "showStats": true,
@@ -129,6 +129,11 @@
             "marginTop": 0,
             "marginBottom": 0,
             "borderRadius": 8
+          }
+        },
+        "3cc7fb48-ef77-4811-af17-7a8644c7fbad": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
           }
         }
       },
@@ -148,7 +153,8 @@
         "collapsible-row-1",
         "collapsible-row-3",
         "share",
-        "11a84718-bec9-49a9-808c-1eac09eb5a3e"
+        "11a84718-bec9-49a9-808c-1eac09eb5a3e",
+        "3cc7fb48-ef77-4811-af17-7a8644c7fbad"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -167,16 +173,6 @@
     },
     "16934033177e130247": {
       "type": "apps",
-      "blocks": {
-        "820fe139-5643-4dc8-a2a9-15ab6df78348": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "820fe139-5643-4dc8-a2a9-15ab6df78348"
-      ],
       "settings": {
         "include_margins": true
       }
