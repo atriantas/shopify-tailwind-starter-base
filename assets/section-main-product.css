@@ -307,9 +307,6 @@ fieldset.product-form__input .form__label {
 
 .product-form__submit {
   margin-bottom: 1rem;
-  background: black;
-  color: white;
-  font-weight: bold;
 }
 
 .no-js .product-form__submit.button--secondary {
