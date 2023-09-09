@@ -397,7 +397,6 @@ Make sure disabled buttons don't get the pointer cursor.
 */
 
 img,
-svg,
 video,
 canvas,
 audio,
@@ -410,6 +409,9 @@ object {
   /* 2 */
 }
 
+svg {
+  display: inline-block;
+}
 /*
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
 */
