@@ -449,6 +449,8 @@ a.product__text {
 
 .product__tax {
   margin-top: -1.4rem;
+  border-bottom: 1px solid #a3a29b;
+  padding-bottom: 10px;
 }
 
 .product--no-media noscript .product-form__input,
