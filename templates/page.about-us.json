@@ -8,40 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "6555c6c9-0449-435a-94a3-b7318f3a3141": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19660597330260__6555c6c9-0449-435a-94a3-b7318f3a3141-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "CyanoWood",
-            "heading_size": "h2"
-          }
-        },
-        "template--19660597330260__6555c6c9-0449-435a-94a3-b7318f3a3141-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Hi friends! Thanks so much for visiting CyanoWood! We are Thanasis and Akis, a brother's team, creating unique personalized gifts and we are here if you’re searching for a handmade gift for that exact extraordinary somebody.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--19660597330260__6555c6c9-0449-435a-94a3-b7318f3a3141-heading-1",
-        "template--19660597330260__6555c6c9-0449-435a-94a3-b7318f3a3141-text-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "78ccd897-0a6b-4904-9577-8595b06fb4c2": {
       "type": "multicolumn",
       "blocks": {
@@ -265,7 +231,6 @@
   },
   "order": [
     "main",
-    "6555c6c9-0449-435a-94a3-b7318f3a3141",
     "78ccd897-0a6b-4904-9577-8595b06fb4c2",
     "c0f734de-c244-49f6-8d8d-4957698bf22d",
     "9b9e863e-5e5d-433e-9a81-2d02aec811c6",
