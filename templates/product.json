@@ -130,11 +130,6 @@
             "marginBottom": 0,
             "borderRadius": 8
           }
-        },
-        "3cc7fb48-ef77-4811-af17-7a8644c7fbad": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -153,8 +148,7 @@
         "collapsible-row-1",
         "collapsible-row-3",
         "share",
-        "11a84718-bec9-49a9-808c-1eac09eb5a3e",
-        "3cc7fb48-ef77-4811-af17-7a8644c7fbad"
+        "11a84718-bec9-49a9-808c-1eac09eb5a3e"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -173,6 +167,16 @@
     },
     "16934033177e130247": {
       "type": "apps",
+      "blocks": {
+        "448ecfac-b425-4a8e-8cb4-ec77cb3f5edc": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "448ecfac-b425-4a8e-8cb4-ec77cb3f5edc"
+      ],
       "settings": {
         "include_margins": true
       }
