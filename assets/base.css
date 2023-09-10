@@ -2632,7 +2632,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .header__icon:hover .icon,
 .modal__close-button:hover .icon {
-  transform: scale(1.07);
+  transform: scale(1.15);
 }
 
 .header__icon .icon {
@@ -2640,6 +2640,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   width: 3.5rem;
   fill: none;
   vertical-align: middle;
+  fill: #706b67;
 }
 
 .header__icon,
@@ -2647,6 +2648,18 @@ product-info .loading-overlay:not(.hidden) ~ *,
   height: 3rem;
   width: 4.4rem;
   padding: 0;
+}
+
+.header__icon--cart:hover .icon {
+  fill: rgba(80, 200, 200, 1);
+}
+
+.header__icon--account:hover .icon {
+  fill: #ffb84d;
+}
+
+.header__icon--search:hover .icon {
+  fill: rgb(194, 223, 138);
 }
 
 .header__icon--cart {
