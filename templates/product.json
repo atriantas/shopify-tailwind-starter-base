@@ -120,16 +120,16 @@
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
             "backgroundColor": "#f1f8f5",
-            "textColor": "#1d4136",
-            "borderColor": "#95c9b4",
+            "textColor": "#1c4b21",
+            "borderColor": "#b9dcce",
             "showLogo": true,
-            "showMoreInfo": true,
+            "showMoreInfo": false,
             "showStats": true,
             "showProjects": false,
             "fullWidth": true,
             "marginTop": 0,
             "marginBottom": 0,
-            "borderRadius": 8
+            "borderRadius": 12
           }
         }
       },
