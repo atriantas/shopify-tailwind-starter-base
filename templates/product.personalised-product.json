@@ -11,7 +11,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.short_description.value }}",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -34,7 +34,8 @@
         "personalise": {
           "type": "personalise",
           "settings": {
-            "personalise": "Personalisation"
+            "personalise": "Personalisation",
+            "instructions": "Write your text here"
           }
         },
         "buy_buttons": {
@@ -62,15 +63,6 @@
         "description": {
           "type": "description",
           "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.import_information.trade_item_description | metafield_tag }}<\/p>",
-            "page": ""
           }
         },
         "collapsible-row-1": {
@@ -117,7 +109,6 @@
         "buy_buttons",
         "16bf1687-5947-4c0a-aec9-fa723370ab9b",
         "description",
-        "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",

@@ -67,14 +67,14 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
-            "image_1": "shopify:\/\/shop_images\/Hand_Pastel.png",
+            "image_1": "shopify:\/\/shop_images\/twotone_handshake_black_24dp.png",
             "heading_1": "Handmade",
             "icon_2": "return",
-            "image_2": "shopify:\/\/shop_images\/Gift_Pastel.png",
+            "image_2": "shopify:\/\/shop_images\/twotone_card_giftcard_black_24dp.png",
             "heading_2": "Gift wrap",
             "icon_3": "truck",
-            "image_3": "shopify:\/\/shop_images\/Personalized_Pastel.png",
-            "heading_3": "Personalized"
+            "image_3": "shopify:\/\/shop_images\/twotone_forest_black_24dp.png",
+            "heading_3": "Wood"
           }
         },
         "description": {
