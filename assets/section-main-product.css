@@ -1395,6 +1395,11 @@ a.product__text {
   --icon-spacing: calc(var(--font-heading-scale) * 1rem);
 }
 
+.icon-with-text-background {
+  padding: 10px !important;
+  border-radius: 12px;
+}
+
 .icon-with-text--horizontal {
   display: flex;
   justify-content: center;
