@@ -220,7 +220,7 @@
             "type": "app",
             "settings": {
               "title": "Planet",
-              "url": "cdn.shopify.com\/shopifycloud\/shopify-planet\/bundles\/latest\/snippet.js",
+              "url": "https:\/\/cdn.shopify.com\/extensions\/ce9c1310-b006-4899-9293-d04338421543\/0.35.0\/assets\/banner.js",
               "block_index": false,
               "block_product": false,
               "block_collection": false,
