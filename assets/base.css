@@ -2158,7 +2158,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   align-items: center;
   font-size: 0.9rem;
   font-weight: bold;
-  bottom: 0.8rem;
+  bottom: -0.4rem;
   left: 2.2rem;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
 }
@@ -2636,7 +2636,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header__icon .icon {
-  height: 2.5rem;
+  height: 2.8rem;
   width: 3.5rem;
   fill: none;
   vertical-align: middle;
@@ -2644,7 +2644,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .header__icon,
 .header__icon--cart .icon {
-  height: 4.4rem;
+  height: 3rem;
   width: 4.4rem;
   padding: 0;
 }
