@@ -2,6 +2,15 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "f3e0e7d5-48c6-4b71-a896-593127fc0562": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "9cca12d5-af7c-4260-99da-209b70a443b5": {
       "type": "newsletter",
       "blocks": {
@@ -82,6 +91,7 @@
     }
   },
   "order": [
+    "f3e0e7d5-48c6-4b71-a896-593127fc0562",
     "9cca12d5-af7c-4260-99da-209b70a443b5",
     "footer"
   ]
