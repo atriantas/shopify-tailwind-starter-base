@@ -91,6 +91,10 @@
         "09e85910-305f-4e55-a732-d9e7473eb4eb",
         "619a9d6a-d938-42b7-9d7b-9f876ce01e08"
       ],
+      "custom_css": [
+        ".card__media {border-radius: 50%;}",
+        ".card__inner {border: 1px solid #ffffff;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -100,7 +104,7 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
+        "padding_top": 48,
         "padding_bottom": 36
       }
     },
