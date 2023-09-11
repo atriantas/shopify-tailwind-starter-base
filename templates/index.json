@@ -103,6 +103,38 @@
         "padding_bottom": 88
       }
     },
+    "959ce89f-119d-46b4-a9bc-2e87f3d2e006": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".card__content {display: none;}",
+        " {text-align: center;}"
+      ],
+      "settings": {
+        "title": "Most favorited items",
+        "heading_size": "h1",
+        "description": "<p>According to our customers<\/p>",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "cutting-boards",
+        "products_to_show": 2,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
+        "image_ratio": "square",
+        "image_shape": "round",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 88,
+        "padding_bottom": 88
+      }
+    },
     "cf208507-b0de-4fad-b8a8-57e8f4a4fafb": {
       "type": "image-with-text",
       "blocks": {
@@ -139,7 +171,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/il_1140xN.2533739541_6ywy.jpg",
-        "height": "small",
+        "height": "medium",
         "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -150,6 +182,34 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "d66d4088-aafb-46ca-9d3e-488aae8e9e43": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Jewellery boxes",
+        "heading_size": "h1",
+        "description": "<p>Keep your pieces safe and organized<\/p>",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "jewellery-boxes",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 84,
+        "padding_bottom": 84
       }
     },
     "7f308ca7-a9ee-4234-a197-34c73160391d": {
@@ -282,34 +342,6 @@
         "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
         "show_view_all": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "d66d4088-aafb-46ca-9d3e-488aae8e9e43": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Jewellery boxes",
-        "heading_size": "h1",
-        "description": "<p>Keep your pieces safe and organized<\/p>",
-        "show_description": false,
-        "description_style": "subtitle",
-        "collection": "jewellery-boxes",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "link",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
@@ -573,11 +605,12 @@
     "image_banner",
     "rich_text",
     "featured_collection",
+    "959ce89f-119d-46b4-a9bc-2e87f3d2e006",
     "cf208507-b0de-4fad-b8a8-57e8f4a4fafb",
+    "d66d4088-aafb-46ca-9d3e-488aae8e9e43",
     "7f308ca7-a9ee-4234-a197-34c73160391d",
     "3054f16b-d0f7-495e-a09d-40b5a5d91528",
     "3a684e48-7a6d-4d1a-8a0a-e3fb8659b7d4",
-    "d66d4088-aafb-46ca-9d3e-488aae8e9e43",
     "collage",
     "multicolumn",
     "9d11e4ee-a9b8-49db-b0b2-5b7406d9dc3e",
