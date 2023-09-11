@@ -6,25 +6,25 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Photography boxes",
-            "heading_size": "h0"
+            "heading": "<strong>Handmade with love only for you<\/strong>",
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Store your memories in a safe place",
-            "text_style": "subtitle"
+            "text": "<strong>Personalized items for you and your loved ones<\/strong>",
+            "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop now",
+            "button_label_1": "For him",
             "button_link_1": "shopify:\/\/collections\/photography",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "For her",
+            "button_link_2": "shopify:\/\/collections\/beech-cutting-charcuterie-boards",
             "button_style_secondary_2": false
           }
         }
@@ -34,86 +34,19 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Photo_Box_Banner.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/DSC_5162-2_Optimized.jpg",
+        "image_2": "shopify:\/\/shop_images\/DSC_5171_Optimized.jpg",
+        "image_overlay_opacity": 20,
         "image_height": "small",
-        "desktop_content_position": "middle-right",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
-        "desktop_content_alignment": "right",
-        "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "right",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "fbe2046f-b350-44c8-9bec-562c119fa65d": {
-      "type": "slideshow",
-      "blocks": {
-        "template--19588003397972__fbe2046f-b350-44c8-9bec-562c119fa65d-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Homepage_Banner_06a.jpg",
-            "heading": "Charcuterie boards",
-            "heading_size": "h1",
-            "subheading": "Perfect for kitchen decor",
-            "button_label": "Shop now",
-            "link": "shopify:\/\/collections\/charcuterie-boards",
-            "button_style_secondary": true,
-            "box_align": "middle-right",
-            "show_text_box": false,
-            "text_alignment": "right",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--19588003397972__fbe2046f-b350-44c8-9bec-562c119fa65d-slide-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Photo_Box_Banner.jpg",
-            "heading": "Photography box",
-            "heading_size": "h1",
-            "subheading": "Store your memories in a safe place",
-            "button_label": "Shop now",
-            "link": "shopify:\/\/collections\/5x7-photo-box",
-            "button_style_secondary": true,
-            "box_align": "middle-right",
-            "show_text_box": false,
-            "text_alignment": "right",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--19588003397972__fbe2046f-b350-44c8-9bec-562c119fa65d-slide-1",
-        "template--19588003397972__fbe2046f-b350-44c8-9bec-562c119fa65d-slide-2"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "small",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow with Cyanowood products"
-      }
-    },
-    "3052bdf6-c1b4-4a2a-b450-0925efabaa94": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 48,
-        "padding_bottom": 0
       }
     },
     "rich_text": {
@@ -133,17 +66,21 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-2bbc0bd0-dd31-4c5f-9945-69834ecc22a0",
-        "full_width": false,
+        "full_width": true,
         "padding_top": 8,
         "padding_bottom": 8
       }
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        ".title--primary {text-align: center;}",
+        ".title-wrapper-with-link {justify-content: center !important;}"
+      ],
       "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
+        "title": "Most favorited items",
+        "heading_size": "h1",
+        "description": "<p>According to our customers<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "cutting-boards",
@@ -561,9 +498,9 @@
         "0c8a5a0a-f028-411e-8603-6d38c9b78ea9": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
-            "backgroundColor": "#F1F8F5",
-            "textColor": "#1D4136",
-            "borderColor": "#95C9B4",
+            "backgroundColor": "#f1f8f5",
+            "textColor": "#1d4136",
+            "borderColor": "#95c9b4",
             "showLogo": true,
             "showMoreInfo": true,
             "showStats": true,
@@ -585,8 +522,6 @@
   },
   "order": [
     "image_banner",
-    "fbe2046f-b350-44c8-9bec-562c119fa65d",
-    "3052bdf6-c1b4-4a2a-b450-0925efabaa94",
     "rich_text",
     "featured_collection",
     "7f308ca7-a9ee-4234-a197-34c73160391d",
