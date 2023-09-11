@@ -5,7 +5,7 @@
     "4c58a4ba-e44b-4e8b-aa34-66adc4211ed7": {
       "type": "custom-liquid",
       "custom_css": [
-        "hr {height: 5px; border-width: 0; background-image: linear-gradient( to right, rgba(255, 184, 77, 1) 20%, rgba(194, 223, 138, 1) 20%, rgba(194, 223, 138, 1) 35%, rgba(80, 200, 200, 1) 35%, rgba(80, 200, 200, 1) 50%, rgba(255, 163, 152, 1) 50%, rgba(255, 163, 152, 1) 65%, rgba(255, 184, 77, 1) 65%, rgba(255, 184, 77, 1) 80%, rgba(80, 200, 200, 1) 80% ); margin: 0;}"
+        "hr {height: 7px; border-width: 0; background-image: linear-gradient( to right, rgba(255, 184, 77, 1) 20%, rgba(194, 223, 138, 1) 20%, rgba(194, 223, 138, 1) 35%, rgba(80, 200, 200, 1) 35%, rgba(80, 200, 200, 1) 50%, rgba(255, 163, 152, 1) 50%, rgba(255, 163, 152, 1) 65%, rgba(255, 184, 77, 1) 65%, rgba(255, 184, 77, 1) 80%, rgba(80, 200, 200, 1) 80% ); margin: 0;}"
       ],
       "settings": {
         "custom_liquid": "<hr>",
