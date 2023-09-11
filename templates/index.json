@@ -497,6 +497,90 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "fa5230cb-e61a-4007-953c-e05bf1f5e717": {
+      "type": "multirow",
+      "blocks": {
+        "template--19588003397972__fa5230cb-e61a-4007-953c-e05bf1f5e717-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Personalized-Walnut-Wood-Charcuterie-Board.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--19588003397972__fa5230cb-e61a-4007-953c-e05bf1f5e717-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Personalized-Walnut-Finish-Photo-Box-with-USB.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--19588003397972__fa5230cb-e61a-4007-953c-e05bf1f5e717-row-3": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19588003397972__fa5230cb-e61a-4007-953c-e05bf1f5e717-row-1",
+        "template--19588003397972__fa5230cb-e61a-4007-953c-e05bf1f5e717-row-2",
+        "template--19588003397972__fa5230cb-e61a-4007-953c-e05bf1f5e717-row-3"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "large",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "169443922589a958a5": {
+      "type": "apps",
+      "blocks": {
+        "0c8a5a0a-f028-411e-8603-6d38c9b78ea9": {
+          "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
+          "settings": {
+            "backgroundColor": "#F1F8F5",
+            "textColor": "#1D4136",
+            "borderColor": "#95C9B4",
+            "showLogo": true,
+            "showMoreInfo": true,
+            "showStats": true,
+            "showProjects": true,
+            "fullWidth": true,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "borderRadius": 4
+          }
+        }
+      },
+      "block_order": [
+        "0c8a5a0a-f028-411e-8603-6d38c9b78ea9"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -511,6 +595,8 @@
     "d66d4088-aafb-46ca-9d3e-488aae8e9e43",
     "collage",
     "multicolumn",
-    "9d11e4ee-a9b8-49db-b0b2-5b7406d9dc3e"
+    "9d11e4ee-a9b8-49db-b0b2-5b7406d9dc3e",
+    "fa5230cb-e61a-4007-953c-e05bf1f5e717",
+    "169443922589a958a5"
   ]
 }
