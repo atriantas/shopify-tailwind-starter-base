@@ -6,22 +6,22 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Photography boxes",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "Store your memories in a safe place",
+            "text_style": "subtitle"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify:\/\/collections\/photography",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,7 +36,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Homepage_Banner_06a.jpg",
+        "image": "shopify:\/\/shop_images\/Photo_Box_Banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-right",
@@ -44,9 +44,98 @@
         "desktop_content_alignment": "right",
         "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "right",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "fbe2046f-b350-44c8-9bec-562c119fa65d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19588003397972__fbe2046f-b350-44c8-9bec-562c119fa65d-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Homepage_Banner_06a.jpg",
+            "heading": "Charcuterie boards",
+            "heading_size": "h1",
+            "subheading": "Perfect for kitchen decor",
+            "button_label": "Shop now",
+            "link": "shopify:\/\/collections\/charcuterie-boards",
+            "button_style_secondary": true,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--19588003397972__fbe2046f-b350-44c8-9bec-562c119fa65d-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_Box_Banner.jpg",
+            "heading": "Photography box",
+            "heading_size": "h1",
+            "subheading": "Store your memories in a safe place",
+            "button_label": "Shop now",
+            "link": "shopify:\/\/collections\/5x7-photo-box",
+            "button_style_secondary": true,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588003397972__fbe2046f-b350-44c8-9bec-562c119fa65d-slide-1",
+        "template--19588003397972__fbe2046f-b350-44c8-9bec-562c119fa65d-slide-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow with Cyanowood products"
+      }
+    },
+    "3052bdf6-c1b4-4a2a-b450-0925efabaa94": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><a href=\"https:\/\/www.etsy.com\/shop\/CyanoWood\" target=\"_blank\" title=\"https:\/\/www.etsy.com\/shop\/CyanoWood\"><strong>Visit our Etsy shop with more than 4.300 sales and 550 reviews.<\/strong><\/a><\/h4>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2bbc0bd0-dd31-4c5f-9945-69834ecc22a0",
+        "full_width": false,
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "featured_collection": {
@@ -62,7 +151,7 @@
         "columns_desktop": 5,
         "full_width": false,
         "show_view_all": false,
-        "view_all_style": "solid",
+        "view_all_style": "link",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
         "image_ratio": "square",
@@ -73,30 +162,171 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 24
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "7f308ca7-a9ee-4234-a197-34c73160391d": {
+      "type": "image-with-text",
       "blocks": {
-        "text": {
+        "template--19588003397972__7f308ca7-a9ee-4234-a197-34c73160391d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Candle holders",
+            "heading_size": "h1"
+          }
+        },
+        "template--19588003397972__7f308ca7-a9ee-4234-a197-34c73160391d-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h4>Visit our Etsy shop with more than 4.300 sales and 550 reviews.<\/h4>"
+            "text": "<p>Make your home attractive<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19588003397972__7f308ca7-a9ee-4234-a197-34c73160391d-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/candle-holder",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "text"
+        "template--19588003397972__7f308ca7-a9ee-4234-a197-34c73160391d-heading-1",
+        "template--19588003397972__7f308ca7-a9ee-4234-a197-34c73160391d-text-1",
+        "template--19588003397972__7f308ca7-a9ee-4234-a197-34c73160391d-button-1"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2bbc0bd0-dd31-4c5f-9945-69834ecc22a0",
+        "image": "shopify:\/\/shop_images\/Triple_Tealight_Banner_14f86b25-3ef0-4f76-88bc-6122c212a152.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "scheme-3892af01-0fe2-4a0e-8a79-f96ee56c2fc6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3054f16b-d0f7-495e-a09d-40b5a5d91528": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19588003397972__3054f16b-d0f7-495e-a09d-40b5a5d91528-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Photo boxes",
+            "heading_size": "h1"
+          }
+        },
+        "template--19588003397972__3054f16b-d0f7-495e-a09d-40b5a5d91528-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Keep your memories safe<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19588003397972__3054f16b-d0f7-495e-a09d-40b5a5d91528-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/5x7-photo-box",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19588003397972__3054f16b-d0f7-495e-a09d-40b5a5d91528-heading-1",
+        "template--19588003397972__3054f16b-d0f7-495e-a09d-40b5a5d91528-text-1",
+        "template--19588003397972__3054f16b-d0f7-495e-a09d-40b5a5d91528-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Photo_Box_White_01.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "scheme-4eec6518-de0d-4516-a64f-0e92c5526993",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "3a684e48-7a6d-4d1a-8a0a-e3fb8659b7d4": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19588003397972__3a684e48-7a6d-4d1a-8a0a-e3fb8659b7d4-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cherry-cutting-boards"
+          }
+        },
+        "template--19588003397972__3a684e48-7a6d-4d1a-8a0a-e3fb8659b7d4-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beech-charcuterie-boards"
+          }
+        },
+        "template--19588003397972__3a684e48-7a6d-4d1a-8a0a-e3fb8659b7d4-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "personalized-beech-charcuterie-boards"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588003397972__3a684e48-7a6d-4d1a-8a0a-e3fb8659b7d4-featured_collection-1",
+        "template--19588003397972__3a684e48-7a6d-4d1a-8a0a-e3fb8659b7d4-featured_collection-2",
+        "template--19588003397972__3a684e48-7a6d-4d1a-8a0a-e3fb8659b7d4-featured_collection-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d66d4088-aafb-46ca-9d3e-488aae8e9e43": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Jewellery boxes",
+        "heading_size": "h1",
+        "description": "<p>Keep your pieces safe and organized<\/p>",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "jewellery-boxes",
+        "products_to_show": 4,
+        "columns_desktop": 4,
         "full_width": false,
-        "padding_top": 4,
-        "padding_bottom": 4
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "collage": {
@@ -208,8 +438,14 @@
   },
   "order": [
     "image_banner",
-    "featured_collection",
+    "fbe2046f-b350-44c8-9bec-562c119fa65d",
+    "3052bdf6-c1b4-4a2a-b450-0925efabaa94",
     "rich_text",
+    "featured_collection",
+    "7f308ca7-a9ee-4234-a197-34c73160391d",
+    "3054f16b-d0f7-495e-a09d-40b5a5d91528",
+    "3a684e48-7a6d-4d1a-8a0a-e3fb8659b7d4",
+    "d66d4088-aafb-46ca-9d3e-488aae8e9e43",
     "collage",
     "multicolumn"
   ]
