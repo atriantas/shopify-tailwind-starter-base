@@ -2,13 +2,25 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "4c58a4ba-e44b-4e8b-aa34-66adc4211ed7": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "hr {height: 7px; border-width: 0; background-image: linear-gradient( to right, rgba(255, 184, 77, 1) 20%, rgba(194, 223, 138, 1) 20%, rgba(194, 223, 138, 1) 35%, rgba(80, 200, 200, 1) 35%, rgba(80, 200, 200, 1) 50%, rgba(255, 163, 152, 1) 50%, rgba(255, 163, 152, 1) 65%, rgba(255, 184, 77, 1) 65%, rgba(255, 184, 77, 1) 80%, rgba(80, 200, 200, 1) 80% ); margin: 0;}"
+      ],
+      "settings": {
+        "custom_liquid": "<hr>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "",
             "link": ""
           }
         }
@@ -18,7 +30,7 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -33,10 +45,10 @@
         "logo_position": "top-center",
         "menu": "mega-menu",
         "menu_type_desktop": "mega",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "none",
         "show_line_separator": true,
-        "color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
-        "menu_color_scheme": "scheme-a41d9dfd-6a2b-484f-81bb-350044f3acf6",
+        "color_scheme": "background-1",
+        "menu_color_scheme": "background-1",
         "enable_country_selector": false,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
@@ -47,6 +59,7 @@
     }
   },
   "order": [
+    "4c58a4ba-e44b-4e8b-aa34-66adc4211ed7",
     "announcement-bar",
     "header"
   ]

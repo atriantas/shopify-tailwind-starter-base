@@ -11,11 +11,11 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.short_description.value }}",
+            "text": "",
             "text_style": "body"
           }
         },
-        "452cc96a-fa48-4d67-9b5f-52d915cd29ef": {
+        "9549973e-3c2d-4adf-9667-632ad5dc5665": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
             "stars_fill_color": "#1f9393",
@@ -23,6 +23,11 @@
             "text_align": "flex-start",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
+          }
+        },
+        "63319c4b-17f5-4f97-835c-8fb911bb99cd": {
+          "type": "rating",
+          "settings": {
           }
         },
         "price": {
@@ -43,7 +48,6 @@
         },
         "personalise": {
           "type": "personalise",
-          "disabled": true,
           "settings": {
             "personalise": "Personalisation",
             "instructions": "Write your text here"
@@ -68,8 +72,8 @@
             "image_2": "shopify:\/\/shop_images\/twotone_card_giftcard_black_24dp.png",
             "heading_2": "Gift wrap",
             "icon_3": "truck",
-            "image_3": "shopify:\/\/shop_images\/twotone_forest_black_24dp.png",
-            "heading_3": "Wood"
+            "image_3": "shopify:\/\/shop_images\/twotone_auto_awesome_black_24dp.png",
+            "heading_3": "Engraving"
           }
         },
         "description": {
@@ -100,7 +104,7 @@
           "settings": {
             "heading": "Faq",
             "icon": "question_mark",
-            "content": "<p><strong>Custom and personalized orders<\/strong><br\/>Every product is handmade for each customer separately, so you are always welcome to ask for custom orders!<\/p><p><strong>Gift wrapping and packaging<\/strong><br\/>Please inform us if you want the product to be wrapped as gift, but we recommend doing it yourself, so you can put your own style too.<\/p>",
+            "content": "<p><strong>Custom and personalized orders<\/strong><br\/>Every product is handmade for each customer separately, so you are always welcome to ask for custom orders!<\/p><p><strong>Gift wrapping and packaging<\/strong><br\/>Please inform us if you want the product to be wrapped as a gift, but we recommend doing it yourself, so you can put your own style too.<\/p>",
             "page": ""
           }
         },
@@ -110,7 +114,7 @@
             "share_label": "Share"
           }
         },
-        "11a84718-bec9-49a9-808c-1eac09eb5a3e": {
+        "368e8d17-8ce7-49c1-b8ac-2464b4616a19": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
             "backgroundColor": "#f2f7f5",
@@ -130,7 +134,8 @@
       "block_order": [
         "title",
         "caption",
-        "452cc96a-fa48-4d67-9b5f-52d915cd29ef",
+        "9549973e-3c2d-4adf-9667-632ad5dc5665",
+        "63319c4b-17f5-4f97-835c-8fb911bb99cd",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -142,7 +147,7 @@
         "collapsible-row-1",
         "collapsible-row-3",
         "share",
-        "11a84718-bec9-49a9-808c-1eac09eb5a3e"
+        "368e8d17-8ce7-49c1-b8ac-2464b4616a19"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -162,14 +167,14 @@
     "16934033177e130247": {
       "type": "apps",
       "blocks": {
-        "448ecfac-b425-4a8e-8cb4-ec77cb3f5edc": {
+        "80e7da34-6ea7-4f98-832b-d4668daf0697": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
         }
       },
       "block_order": [
-        "448ecfac-b425-4a8e-8cb4-ec77cb3f5edc"
+        "80e7da34-6ea7-4f98-832b-d4668daf0697"
       ],
       "settings": {
         "include_margins": true
