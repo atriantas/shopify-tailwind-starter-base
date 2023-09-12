@@ -31,7 +31,9 @@
           {% assign pro_collection = product.collections.first %}
           {% if pro_collection %}
             <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
-              <a itemprop='item' href='{{ pro_collection.url }}'>{{ pro_collection.title }}</a>
+              <a itemprop='item' href='{{ pro_collection.url }}'>
+                <span itemprop='name'>{{ pro_collection.title }}</span>
+              </a>
               <meta itemprop='position' content='{{itemprop_positon | plus: 1}}'>
             </li>
           {% endif %}
