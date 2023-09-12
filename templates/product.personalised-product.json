@@ -11,7 +11,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "{{ product.metafields.custom.short_description.value }}",
             "text_style": "body"
           }
         },
@@ -23,11 +23,6 @@
             "text_align": "flex-start",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
-          }
-        },
-        "63319c4b-17f5-4f97-835c-8fb911bb99cd": {
-          "type": "rating",
-          "settings": {
           }
         },
         "price": {
@@ -50,7 +45,7 @@
           "type": "personalise",
           "settings": {
             "personalise": "Personalisation",
-            "instructions": "Write your text here"
+            "instructions": "example:{{ product.metafields.custom.personalisation.value }}"
           }
         },
         "buy_buttons": {
@@ -69,8 +64,8 @@
             "image_1": "shopify:\/\/shop_images\/twotone_handshake_black_24dp.png",
             "heading_1": "Handmade",
             "icon_2": "return",
-            "image_2": "shopify:\/\/shop_images\/twotone_card_giftcard_black_24dp.png",
-            "heading_2": "Gift wrap",
+            "image_2": "shopify:\/\/shop_images\/twotone_forest_black_24dp.png",
+            "heading_2": "{{ product.metafields.custom.material.value }}",
             "icon_3": "truck",
             "image_3": "shopify:\/\/shop_images\/twotone_auto_awesome_black_24dp.png",
             "heading_3": "Engraving"
@@ -135,7 +130,6 @@
         "title",
         "caption",
         "9549973e-3c2d-4adf-9667-632ad5dc5665",
-        "63319c4b-17f5-4f97-835c-8fb911bb99cd",
         "price",
         "variant_picker",
         "quantity_selector",
