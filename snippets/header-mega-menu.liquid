@@ -38,7 +38,7 @@
                     {% if childlink.title == 'image' %}
                       {% assign linkProduct = childlink.object %}
                       <li class='mega-menu-featured'>
-                        <a href='{{ childlink.url }}'
+                        <a class='mega-menu__link mega-menu__link--level-2 link' href='{{ childlink.url }}'
                           >featured product
                           <img
                             class='nav-featured-image'
@@ -56,7 +56,7 @@
                         {%- if childlink.type == 'collection_link' -%}
                           {% assign linkCollection = childlink.object %}
                           <li class='nav-collection_image'>
-                            <a href='{{ childlink.url }}'>
+                            <a class='mega-menu__link mega-menu__link--level-2 link' href='{{ childlink.url }}'>
                               {{ childlink.title | escape }}
                               <img
                                 crossorigin='anonymous'
