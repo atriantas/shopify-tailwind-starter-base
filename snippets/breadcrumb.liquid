@@ -21,7 +21,7 @@
         {%- when 'product' -%}
           {%- if collection.url -%}
             <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
-              <a itemprop='item' class='breadcrumbs__link' href='{{collection.url}}'>
+              <a itemprop='item' class='breadcrumbs__link' href='{{ collection.url }}'>
                 <span itemprop='name'>{{ collection.title }}</span>
               </a>
               <meta itemprop='position' content='2'>
@@ -34,19 +34,19 @@
               <a itemprop='item' class='breadcrumbs__link' href='{{ pro_collection.url }}'>
                 <span itemprop='name'>{{ pro_collection.title }}</span>
               </a>
-              <meta itemprop='position' content='{{itemprop_positon | plus: 1}}'>
+              <meta itemprop='position' content='{{ itemprop_positon | plus: 1 }}'>
             </li>
           {% endif %}
           <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
             <a itemprop='item' class='breadcrumbs__link' href='{{ product.url }}' aria-current='page'>
               <span itemprop='name'>{{- product.title | truncate: 25 -}}</span>
             </a>
-            <meta itemprop='position' content='{{itemprop_positon | plus: 2}}'>
+            <meta itemprop='position' content='{{ itemprop_positon | plus: 2 }}'>
           </li>
         {%- when 'collection' and collection.handle -%}
           {%- if current_tags -%}
             <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
-              <a class='breadcrumbs__link' href='{{collection.url}}' itemprop='item'>
+              <a class='breadcrumbs__link' href='{{ collection.url }}' itemprop='item'>
                 <span itemprop='name'>{{ collection.title }}</span>
               </a>
               <meta itemprop='position' content='2'>
@@ -80,7 +80,7 @@
               {%- assign itemprop_positon = 2 -%}
             </li>
             <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
-              {%- capture tag_url -%}{{blog.url}}/tagged/{{ current_tags | join: "+" }}{%- endcapture -%}
+              {%- capture tag_url -%}{{ blog.url }}/tagged/{{ current_tags | join: "+" }}{%- endcapture -%}
               <a itemprop='item' class='breadcrumbs__link' href='{{ tag_url }}' aria-current='page'>
                 {{ current_tags | join: ' + ' }}
               </a>
