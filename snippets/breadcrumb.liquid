@@ -13,7 +13,9 @@
       {%- case t -%}
         {%- when 'page' -%}
           <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
-            <a itemprop='item' class='breadcrumbs__link' href='{{ page.url }}' aria-current='page'>{{ page.title }}</a>
+            <a itemprop='item' class='breadcrumbs__link' href='{{ page.url }}' aria-current='page'>
+              <span itemprop='name'>{{ page.title }}</span>
+            </a>
             <meta itemprop='position' content='2'>
           </li>
         {%- when 'product' -%}
