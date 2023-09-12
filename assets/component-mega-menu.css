@@ -95,7 +95,6 @@
 
 .mega-menu-featured:hover {
   color: rgb(var(--color-foreground));
-  text-decoration: underline;
 }
 
 .nav-collection_image {
@@ -106,11 +105,11 @@
 
 .nav-collection_image:hover {
   color: rgb(var(--color-foreground));
-  text-decoration: underline;
 }
 
 .nav-child-link-image {
   border-radius: 6px;
+  margin-top: 5px;
 }
 
 .nav-child-link-image:hover {
@@ -121,6 +120,7 @@
   border-radius: 6px;
   height: 200px;
   max-width: fit-content;
+  margin-top: 5px;
 }
 
 .nav-featured-image:hover {

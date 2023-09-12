@@ -3,8 +3,8 @@
 
   <nav class='breadcrumbs' role='navigation' aria-label='breadcrumbs'>
     <ol class='breadcrumbs__list' itemscope itemtype='http://schema.org/BreadcrumbList'>
-      <li class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
-        <a itemprop='item' href='{{ routes.root_url }}'>
+      <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
+        <a itemprop='item' class='breadcrumbs__link' href='{{ routes.root_url }}'>
           <span itemprop='name' class='d-none'>{{ 'general.text.home' | t }}</span>
         </a>
         <meta itemprop='position' content='1'>
@@ -13,13 +13,15 @@
       {%- case t -%}
         {%- when 'page' -%}
           <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
-            <a itemprop='item' class='breadcrumbs__link' href='{{ page.url }}' aria-current='page'>{{ page.title }}</a>
+            <a itemprop='item' class='breadcrumbs__link' href='{{ page.url }}' aria-current='page'>
+              <span itemprop='name'>{{ page.title }}</span>
+            </a>
             <meta itemprop='position' content='2'>
           </li>
         {%- when 'product' -%}
           {%- if collection.url -%}
             <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
-              <a itemprop='item' href='{{collection.url}}'>
+              <a itemprop='item' class='breadcrumbs__link' href='{{collection.url}}'>
                 <span itemprop='name'>{{ collection.title }}</span>
               </a>
               <meta itemprop='position' content='2'>
@@ -29,7 +31,9 @@
           {% assign pro_collection = product.collections.first %}
           {% if pro_collection %}
             <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
-              <a itemprop='item' href='{{ pro_collection.url }}'>{{ pro_collection.title }}</a>
+              <a itemprop='item' class='breadcrumbs__link' href='{{ pro_collection.url }}'>
+                <span itemprop='name'>{{ pro_collection.title }}</span>
+              </a>
               <meta itemprop='position' content='{{itemprop_positon | plus: 1}}'>
             </li>
           {% endif %}
@@ -42,7 +46,7 @@
         {%- when 'collection' and collection.handle -%}
           {%- if current_tags -%}
             <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
-              <a href='{{collection.url}}' itemprop='item'>
+              <a class='breadcrumbs__link' href='{{collection.url}}' itemprop='item'>
                 <span itemprop='name'>{{ collection.title }}</span>
               </a>
               <meta itemprop='position' content='2'>
