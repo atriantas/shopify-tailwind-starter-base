@@ -52,7 +52,7 @@
                       </li>
                     {% endif %}
                     {%- if childlink.title != 'image' -%}
-                      {%- if link.title == 'photography' or link.title == 'Φωτογραφία' -%}
+                      {%- if link.title == 'photography' or link.title == 'φωτογραφία' -%}
                         {%- if childlink.type == 'collection_link' -%}
                           {% assign linkCollection = childlink.object %}
                           <li class='nav-collection_image'>
@@ -61,7 +61,7 @@
                               <img
                                 crossorigin='anonymous'
                                 class='nav-child-link-image'
-                                src='{{ linkCollection.products.first.featured_image.src | product_img_url: '250x' }}'
+                                src='{{ linkCollection.image.src | product_img_url: '250x' }}'
                                 loading='lazy'
                                 alt='{{ grandchild_link.title }}'
                                 width='250'
