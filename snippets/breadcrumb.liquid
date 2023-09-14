@@ -3,7 +3,7 @@
 
   <nav class='breadcrumbs' role='navigation' aria-label='breadcrumbs'>
     <ol class='breadcrumbs__list' itemscope itemtype='http://schema.org/BreadcrumbList'>
-     <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
+      <li itemprop='itemListElement' class='breadcrumbs__item' itemscope itemtype='http://schema.org/ListItem'>
         <a itemprop='item' class='breadcrumbs__link' href='{{ routes.root_url }}'>
           <span itemprop='name' class='d-none'>{{ 'general.text.home' | t }}</span>
         </a>
@@ -119,4 +119,7 @@
       {%- endcase -%}
     </ol>
   </nav>
+  <div class='collection__title'>
+    {{ collection.title }}
+  </div>
 {%- endunless -%}

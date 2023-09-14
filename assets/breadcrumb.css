@@ -1,7 +1,7 @@
 .breadcrumbs {
   margin: 0px auto;
-  margin-bottom: 15px;
-  margin-top: 1em;
+  margin-top: 30px;
+  margin-bottom: 5px;
   font-size: 13px;
   color: #706b67;
 }
@@ -58,4 +58,10 @@
 .breadcrumbs__item :hover,
 .breadcrumbs__link :focus {
   text-decoration: underline !important;
+}
+
+.collection__title {
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: bold;
 }

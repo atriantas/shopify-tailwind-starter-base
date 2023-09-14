@@ -42,13 +42,14 @@
 }
 
 .mega-menu__link {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground), 1);
   display: block;
   line-height: calc(1 + 0.3 / var(--font-body-scale));
   padding-bottom: 0.6rem;
   padding-top: 0.6rem;
   text-decoration: none;
   transition: text-decoration var(--duration-short) ease;
+  text-decoration-color: #ffffff;
   word-wrap: break-word;
 }
 
@@ -88,7 +89,7 @@
 
 .mega-menu-featured {
   padding-left: 10px !important;
-  border-left: 1px solid #a3a29b;
+  border-left: 2px solid #d9d7cd;
   font-weight: bold;
   color: rgba(var(--color-foreground), 0.75);
 }
