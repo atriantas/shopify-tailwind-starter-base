@@ -373,13 +373,13 @@
         "0c8a5a0a-f028-411e-8603-6d38c9b78ea9": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
-            "backgroundColor": "#f1f8f5",
-            "textColor": "#1d4136",
-            "borderColor": "#95c9b4",
             "showLogo": true,
             "showMoreInfo": false,
             "showStats": true,
             "showProjects": true,
+            "backgroundColor": "#f1f8f5",
+            "textColor": "#1d4136",
+            "borderColor": "#95c9b4",
             "fullWidth": true,
             "marginTop": 0,
             "marginBottom": 0,
@@ -602,7 +602,7 @@
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "Shop now",
-            "link": "shopify:\/\/products\/cutting-board-mahogany-rectangular-with-juice-groove"
+            "link": "shopify:\/\/products\/cutting-board-mahogany-rectangular-juice-groove"
           }
         }
       },
